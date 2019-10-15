@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #191919;
+  height: 60px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  padding-left: 30px;
+  position: relative;
+  bottom: 10px;
+}
+
+.header .menu ul {
+  display: flex;
+  list-style: none;
+  right: 90px;
+  position: relative;
+}
+
+.header .menu ul li {
+  margin: 20px 10px;
+}
+
+.header .menu ul a {
+  font-family: inherit;
+  font-size: 15px;
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.myButton {
+  color: inherit;
+  display: inline-block;
+  background-color: #0057ff;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.25;
+  padding: 6px 15px 8px;
+  position: relative;
+  bottom: 10px;
+  text-shadow: none;
+  transition-duration: 300ms;
+  transition-property: color, border;
+  transition-timing-function: linear;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+ul li .myButton:hover {
+  background-color: rgb(102, 38, 221);
+}
+
+.white-color {
+  color: white;
+}
+
+.gray-color {
+  color: #a4a4a4;
+}
+
+ul li .gray-color:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-icon {
+  position: relative;
+  bottom: 8px;
+}
+
+.space {
+  color: gray;
+  font-weight: bold;
+  position: relative;
+  right: 10px;
+}
+
+.google_link {
+  position: relative;
+  right: 35px;
+}
+
+.facebook_link {
+  right: 18px;
+}
+
+.fas {
+  color: rgb(163, 151, 151);
+  position: relative;
+  right: 10px;
+  bottom: 2px;
+}
+
+.right-side ul {
+  display: flex;
+  list-style: none;
+  right: 50px;
+  bottom: 10px;
+  position: relative;
+}
+
+.right-side ul li {
+  margin: 20px 10px;
+}
+
+.right-side ul a {
+  font-family: inherit;
+  font-size: 15px;
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.fab {
+  position: relative;
+  right: 5px;
+}
+
+/** HEADER END **/
+
+/** SLIDER START **/
+
+.container {
+  display: flex;
+  position: relative;
+  position: relative;
+  text-align: center;
+  color: rgb(213, 213, 224);
+  top: 80px;
+  justify-content: space-around;
+}
+
+.text-slider {
+  position: relative;
+  display: block;
+  width: 200px;
+  height: 100px;
+}
+
+.slider-box {
+  position: relative;
+  display: block;
+  width: 200px;
+  height: 100px;
+}
+
+.text-slider h2 {
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  font-size: inherit;
+  background: rgb(63, 56, 56);
+  font-weight: 900;
+  line-height: 1.1;
+  position: relative;
+  text-shadow: 0 1px 0 #191919;
+  font-size: 25px;
+  bottom: 60px;
+}
+
+/** END SLIDER CONTAINER **/
+
+/** H2 SLOGAN **/
+
+.slogan {
+  position: relative;
+  color: #191919;
+  line-height: 0.9;
+  margin: 0 0 15px;
+  text-align: center;
+  top: 100px;
+}
+
+h3 {
+  font-size: 70px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  font-family: "acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+.low-text {
+  color: #191919;
+  font-family: acumin-pro-wide, Acumin Pro Wide, Helvetica Neue, Helvetica,
+    Arial, sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 1.25;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+/** END SLOGAN **/
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  position: relative;
+  top: 120px;
+  left: 0px;
+  right: 0px;
+}
+
+.post {
+  width: 415px;
+  padding: 10px;
+  position: relative;
+  flex-direction: column;
+  display: flex;
+}
+
+/** FOOTER **/
+
+.low-nav {
+  background-color: #191919;
+  height: 25px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.low-menu ul {
+  display: flex;
+  position: relative;
+  left: 40px;
+}
+
+.low-menu ul li {
+  display: inline;
+  padding-right: 30px;
+}
+
+.low-menu ul li a {
+  text-decoration: none;
+}
+
+.right-footer {
+  display: flex;
+  list-style: none;
+  right: 25px;
+  bottom: 0px;
+  position: relative;
+}
+
+.right-footer ul a {
+  font-family: inherit;
+  font-size: 15px;
+  display: block;
+  text-decoration: none;
+}
